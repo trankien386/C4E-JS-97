@@ -1,0 +1,28 @@
+Quy tắc đặt tên biến
+	4 - Chỉ chứa [A-Z],[a-z],[0-9]
+			và 2 kí tự đặc biẹt: $ _
+	  - Không bắt đầu bằng số
+	  - Không trùng với từ khóa
+			var,let,...
+	  - Có phân biệt hoa - thường
+			A != a
+
+Quy ước đặt tên biến
+	- Đặt tên biến theo phong cách camel Case
+		- 1 kí tự : viết thường
+			name, age,...
+		- 2 kí tự trở lên : viết thường chữ cái đầu tiên
+									viết hoa các chữ cái tiếp theo
+			yearOfBirth,...
+
+	var - phạm vi dùng lớn hơn
+	let - phạm vi dùng nhỏ - chỉ trong 1 block code
+
+		1 block code   {
+								let a=1
+							}
+	Ra ngoài block code, a bị hủy
+
+
+	
+							
