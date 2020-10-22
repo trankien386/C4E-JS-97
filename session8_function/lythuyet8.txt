@@ -1,0 +1,30 @@
+Session 8 Fuction
+
+	Khai báo 1 lần - Sử dụng nhiều lần mỗi khi được gọi
+
+	Cú pháp
+
+	Khai báo
+			function tenfunction(dsthamso){
+				//code
+			}
+
+	Sử dụng: -	tenF();
+				-	tenF(dsbien);
+
+Return - trả về kết quả
+
+		function X(...){
+			...
+			//return;	-> undefined
+			//return bien;
+		}
+
+		-> Sau khi return, fuction sẽ dừng lại
+
+	Sử dụng: let bien=X(...);
+
+//tim cac so chia het cho 8
+//so nao >20 khonog?
+//tat ca cac so co chia het
+//tim cac so le va >5

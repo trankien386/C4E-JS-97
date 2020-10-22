@@ -1,0 +1,14 @@
+Session 10 HTML - HyperText Markup Language
+
+Cấu trúc: dạng thẻ hình cây
+Cú pháp:
+	-	Thẻ rỗng (thẻ tự đóng): <tenthe/>
+										<tenthe>
+	
+	- Cặp thẻ <tenthe><tenthe/>
+
+VD:
+	* <div> <h1->6> <table> <ul> <li> <img> <a> <input> <button> <audio> <video> <nav>
+		<br> <hr>
+
+========JSON=======AJAX========HTML=========

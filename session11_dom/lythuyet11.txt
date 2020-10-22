@@ -1,0 +1,14 @@
+DOM: Document Object Model
+			|		  |
+		  HTML	 JS
+
+document.getElementById() => 1 DOM
+			getElementsByClassName() => mảng DOM
+			getElementsByName() => mảng DOM		- Name: thuộc tính HTML
+			getElementsByTagName() => mảng DOM
+								|
+							Thẻ HTML
+
+DOM kiểu dữ liệu Object
+
+//EVENT HTML

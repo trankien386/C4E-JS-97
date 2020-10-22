@@ -1,0 +1,69 @@
+Các kiểu dữ liệu
+   -  Number   -  Integer
+               -  Float
+   -  String (văn bản)
+   -  Boolean  -  true
+               -  false
+   -  Array
+   -  Object
+
+
+Number
+   let a=5; //Biến a có kiểu dữ liệu số nguyên
+   let b=3.14; //Biến b có kiểu dữ liệu số thực
+
+   let c=2;
+   let d=a/c; // d là số nguyên hay số thực?
+
+
+Chuyển kiểu dữ liệu
+   -  Sang số nguyên   :  parseInt();
+   -  Sang số thực   :  parseFloat():
+   -  Sang số  :  Number();
+
+   //Các hàm trên không thay đổi kiểu dữ liệu của biến truyền vào
+
+
+String
+   let name = "your name"
+
+   -  Kí hiệu	:	" "   ' '   ` `
+	
+	Phép tính trên chuỗi
+
+			"Xin chao" + name
+			"2020" - name
+		String + String = String 
+		   		-					-	NaN		//1 trong 2 chuỗi có chứa kí tự != số - [a-z]
+		S  		*	S			=	|
+		  			/					-	Number	//2 chuỗi đều chứa số
+
+
+					-					-	NaN
+		Number	*	String	=	|
+					/					- Number
+
+					-					-	NaN
+		String	*	Number	=	|
+					/					-	Number
+
+
+Các phép toán trên số
+	+	-	*	/	%	++	--
+
+	let c=a+b;
+	let a= số ?
+		a=a+5		-	a+=5
+		a=a-5		-	a-=5
+		a=a*5		-	a*=5
+		a=a/5		-	a/=5
+
+
+	a++	:	tăng 1 đơn vị sau khi thực hiện câu lệnh hiện tại
+	++a	:	tăng 1 đơn vị trước khi thực hiện câu lệnh
+
+		console.log=(a++);	=>	console.log=(a);
+										a++;
+										
+		console.log=(++a);	=>	a++;
+										console.log=(a);

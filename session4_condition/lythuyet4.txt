@@ -1,0 +1,54 @@
+Session 4 Condition
+
+   if (Condition){         Nếu Condition đúng thì code 1 được chạy
+      //code1        =>                   sai thì bỏ qua chạy câu lệnh tiếp theo
+   }else{
+      //code2        =>    Sai thì chạy code 2
+   }
+
+
+   if (Condition1){                 Nếu code 1 đúng
+      //code1                 =>    chạy code 1    => thoát khỏi if-else
+   }else if (Condition2){
+      //code2                 => ....
+   }else if (Condition3){
+      //code3
+   }...
+   else{
+      //coden
+   }
+
+
+BT: Cho người dùng nhập 1 số, so sánh với 10
+
+	Condition: Mệnh đề trả kết quả đúng/sai			==		so sáh về giá trị	|	Hạn chế
+		>	<	=		!=		=<	>=		Toán học				===	so sánh về giá trị và kiểu dữ liệu	|	Nên dùng
+		>	<	==		!=		<=	>=		Lập trình
+				===	!==
+
+	Toán logic	c = a and b	=>	c đúng	<=>	a đúg và b đúq			A 	&&	B
+										c sai		<=>	a sai và b sai	
+					c = a or	b	=>	c đúq		<=>	a đúng hoặc b đúg		A	||	B
+										c sai		<=>	cả a và b đều sai
+						 _																_
+					c = A			=>													A
+
+!(A && B)	=	!A	||	!B
+!(A || B)	=	!A	&&	!B
+
+BT: Nhập cân nặng, hiện trạng thái cơ thể (gầy/béo/cân đối)
+
+BT: Nhập tháng, ỉn ra số ngày của tháq
+
+
+	Switch(biến){
+		case gía trị 1:	~ if
+			//code1;
+			break;
+		case gía trị 2:	~ else if			điều kiện bằq <=> Switch-case
+			//code2;
+			break;
+		...
+		default:				~	else
+			//coden;	
+	}

@@ -1,0 +1,59 @@
+Session 6 Array
+
+	let bien = [ ];
+	let bien1 = [gtri1, gtri2,... ];
+
+Truy cập vào mảng
+	biến[index] => giá trị tại index
+	index   [0, length];
+
+length: chiều dài mảng: bien.length
+
+Duyệt mảq
+	for (let i=0; i<a.length;i++){
+		...a[i]...
+	}
+
+THêm
+	a.push(gtri1); ~ thêm vào cuối
+	a.púsh(gtri1,...);
+	a.unshift(gtri1); ~ thêm vào đầu
+	a.unshift(gtri1, gtri2,...);
+
+Sửa
+		 a[i]=gtri; index   [0,length]
+
+	nếu i   [0,length]
+		 a[5]=160;
+		 a[10]=170;
+
+	=> [0,1,2,3,4,160,(empty),(empty),(empty),(empty),170]
+
+Xóa
+		a.splice (i, count)	~ xóa count phần tử từ i
+		a.pop()					~ xóa ở cuối và trả ra phần tử đó
+	->	a.shift(1,1);			~ xóa ở đầu và trả ra phần tử đó
+
+
+	Stack											Queue
+		First In - Last Out						First In - First Out
+
+	[							]					[							]
+	->						  <-					->
+	a.unshift()		a.push()					a.unshift()
+	a.shift()		a.pop()					a.pop()
+																			  <-
+																		a.shift()
+																		a.push()
+
+Vòq lặp không xác địh số lần lặp
+	While (condition){		~	Kiểm tra điều kiện, nếu đúq thì chạy code, sai thì dừq
+		//code
+	}
+
+	=> //code chạy khi condition đúq
+
+//Nhập 1 số >=8, nhỏ hơn thì nhập lại
+
+//nhập pass độ dài >=8 kí tự, chứa chữ @
+

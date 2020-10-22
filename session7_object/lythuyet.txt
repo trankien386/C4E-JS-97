@@ -1,0 +1,31 @@
+Session 7 Object
+
+Đặc điểm
+	Key: không trùng nhau, chỉ có kiểu dữ liệu String.
+		Nếu khai báo nhiều key trùng => chỉ nhận key cuối.
+	Value: chứa giá trị của key tươq ứq, datatype bất kì.
+
+Khai báo
+	let 0 ={
+		"key": value,
+		"key1": value1,
+		"key2": value2,
+	}
+
+Thêm
+	O.keymoi = value;
+	O["keymoi"]= value;
+
+Sửa
+	O.keycu = value;
+	O["keycu"] = value;
+
+Xóa
+	delete O["key"];
+	delete O.key;
+
+Duyệt
+	for(const key in O){
+		O[key];
+		
+	}

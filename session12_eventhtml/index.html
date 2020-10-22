@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event HTML</title>
+</head>
+<body>
+	<p>Event</p>
+	<h1 onclick="helloWorld()">Hello world!</h1>
+	<h2 id="title">The H2</h2>
+	<p>
+		Your Name: <input type="text" placeholder="Enter your name..." id="inputDOM" onkeypress="enterLogin(event, this)">
+		<br>
+		Password: <input type="password" id="inputPass" onkeypress="enterLogin(event, this)">
+		<br>
+		<button onclick="signIn(event, this)">Sign In</button>
+	</p>
+
+	<p>
+		<input type="text" placeholder="Nhap ten dien thoai..." id="inputPhone" onkeypress="enterLogin(event, this)">
+		<button onclick="addPhone(event, this)">Add</button>
+	</p>
+
+	<ul id="listPhone">
+		<li>iPhone SE</li>
+	</ul>
+
+	<input type="text" placeholder="Search here..." id="txtSearch">
+	<button onclick="searchPhone()">Search</button>
+	
+	<ul id="searchResult">
+		
+	</ul>
+	 
+	<script src="index.js"></script>
+</body>
+</html>

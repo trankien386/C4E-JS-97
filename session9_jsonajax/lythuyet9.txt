@@ -1,0 +1,19 @@
+Json - Ajax
+
+JSON - 1 chuỗi có cấu trúc, cấu trúc để lưu trữ và 
+
+JS
+	String: "" '' ``
+	Number:...
+	Boolean: true/false
+	Array: []
+	Object: {key:value,}
+
+JSON
+
+Data -> JSON: JSON.stringify(data); --> String
+JSON -> Data: JSON.parse(data);	--> JSON
+
+
+AJAX - Giúp gửi request lên server và nhận respond ve tu server ma khong phai reload
+

@@ -1,0 +1,29 @@
+Event	-	sự kiện xảy ra do các thiết bị ngoại vi (chuột, bàn phím, màn hình, wifi card...)
+
+VD: click				key press		on load
+	right-click			key down			on error
+	double-click		key up
+
+
+Đăng ký Event
+	-	Trên HTML, sử dụng thuộc tính HTML:		on + eventName
+															onclick
+															onkeypress
+															...
+	-	Trên JS, sử dụng DOM với phương thức:	addEventListener
+
+	-	Trên HTML: giá trị của sự kiện: code JS
+	-	Trên JS: giá trị của addEventLístener: function
+			nhận vào 2 tham số:	-	ten Event
+										-	function thực thi
+
+ten ='admin' & pass='123456'
+	-> alert	-> chuyen sang dantri
+	-> sai ten hoac pass
+
+Biến của Event (context):	-	event:
+									-	this: DOM tiếp nhận sự kiện
+
+C4EJS97 - Nhom ? - Ten Project
+
+3 main features -> chuc nang phu

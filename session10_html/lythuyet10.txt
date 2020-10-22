@@ -1,0 +1,89 @@
+Thuoc tinh cua HTML: Nằm ở thẻ mở <tenthe thuoctinh="giatri"></tenthe>
+											<tenthe tt="giatri"/>
+
+Cấu trúc: - Ten thuoc tinh ="giatri"
+			 - Ten thuoc tinh
+
+Dac diem: mỗi loại thẻ sẽ có các thuộc tính riêng
+			1 thẻ có thể chứa nhiều thuộc tính khác nhau bởi dấu cách 
+			Tại 1 thời điểm, 1 thuộc tính không thể xuất hiện quá 1 lần trên 1 thẻ
+
+CSS
+
+Cu phap:
+	Thuoc tinh:	gia tri;
+VD:
+	Thuoc tinh: color						giatri:red;
+					font						giatri:FiraCode;
+					width						giatri:500px;
+					height					giatri:400px;
+					position					...
+
+Vi tri code:
+	1: Inline trong thuoc tinh 
+	2: Internal trong the "style" thuong nam trong <head>
+	3: External - dat ra file ring (.css) va nhung vao website qua the html
+		Cu phap 3: selector{
+							thuoctinh:giatri;
+							tt2:giatri2;
+					  }
+
+	selector:	class va id cua HTML
+					thuoc tinh cua HTML
+					<tenthe class="" id="">...</tenthe>
+
+	class:		1 trang web co the co nhieu class
+					1 the co the thuoc ve nhieu class
+						- class ="c1 c2 c3"
+	
+	id:			1 trang web chi co 1 id duy nhat
+					1 the chi thuoc ve 1 id
+
+	selector:	
+					* {			=>> tat ca the HTML
+						//code
+					}
+
+					tenthe {		=>> tat ca the HTML trung ten
+						//code
+					}
+
+					.tenclass {
+						//code
+					}
+
+					#id {
+						//code
+					}
+
+					tenthe.tenclass {		=>> the co class tuong ung
+						//code
+					}
+
+					tenthe#id {
+						//code
+					}
+
+					.class1.class2 {		=>> the vua co class 1 vua co class 2
+						//code
+					}
+
+					selector1, selector2 {		=>> Ap dung ca 1 va 2
+						//code
+					}
+
+					selector1 selector2 {		=>> Ap dung cho 2 voi 2 la con cua 1
+						//code
+					}
+
+					selector1 > selector2 {		=>> Ap dung cho 2 voi 2 la con truc tiep cua 1
+						//code
+					}
+
+					selector:hover {				=>> Ap dung cho selector khi hover
+						//code
+					}
+
+Thu tu uu tien:	1 - Inline
+						2 - Internal
+						3 - External

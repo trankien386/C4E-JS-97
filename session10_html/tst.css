@@ -1,0 +1,46 @@
+#title {
+	width: 650px;
+	font-size: 32px;
+}
+
+p {
+	font-size: 18px;
+	width: 650px;
+}
+
+span.dantri {
+	color: white;
+	background-color: green;
+	border-radius: 2px;
+	padding: 4px 8px;
+	display: inline-block;
+	line-height: 1;
+	margin-right: 4px;
+}
+
+p.desc {
+	display:block;
+	margin-top: 0px;
+	padding: 8px;
+	font-size: 17px;
+}
+
+div.image {
+	background-color: #f1f1f1;
+	width:640px;
+}
+
+p.credit {
+	text-align: right;
+}
+
+p.newssuggest {
+	font-weight: 700;	
+	font-size: 17px;
+}
+
+a {
+	font-color: #0267cc;
+	text-decoration: none;
+
+}
